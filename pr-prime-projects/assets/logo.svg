@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="100%" height="100%">
+  <defs>
+    <!-- Trust Blue & Gold Gradients -->
+    <linearGradient id="brandBlueLinear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A4B84" />
+      <stop offset="60%" stop-color="#133966" />
+      <stop offset="100%" stop-color="#0F2B4D" />
+    </linearGradient>
+
+    <linearGradient id="goldAccent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8860B" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- LOGO EMBLEM / ICON (Left) -->
+  <g transform="translate(15, 12)" filter="url(#subtleShadow)">
+    <!-- Outer Shield / Hexagonal Architectural Frame -->
+    <polygon points="68,0 136,36 136,102 68,138 0,102 0,36" fill="none" stroke="url(#brandBlueLinear)" stroke-width="3" />
+    
+    <!-- Landmark Geometric Tower Silhouette (Apex & Pillars) -->
+    <path d="M 68 8 L 94 45 L 82 45 L 68 24 L 54 45 L 42 45 Z" fill="url(#goldAccent)" />
+    
+    <!-- Architectural Columns / Monogram "P" -->
+    <path d="M 38 48 L 52 48 L 52 112 L 38 112 Z" fill="url(#brandBlueLinear)" />
+    <path d="M 52 48 C 66 48 76 56 76 68 C 76 80 66 88 52 88 L 52 76 C 60 76 64 72 64 68 C 64 64 60 60 52 60 Z" fill="url(#brandBlueLinear)" />
+    
+    <!-- Monogram "R" Cross Leg with dynamic golden angle -->
+    <path d="M 58 84 L 70 84 L 84 112 L 70 112 Z" fill="url(#goldAccent)" />
+
+    <!-- Landmark Skyscraper Spires -->
+    <line x1="88" y1="52" x2="88" y2="108" stroke="url(#brandBlueLinear)" stroke-width="2.5" opacity="0.85" />
+    <line x1="96" y1="62" x2="96" y2="108" stroke="url(#brandBlueLinear)" stroke-width="2.5" opacity="0.65" />
+    <line x1="104" y1="74" x2="104" y2="108" stroke="url(#brandBlueLinear)" stroke-width="2.5" opacity="0.45" />
+    
+    <!-- Foundation Beam -->
+    <rect x="24" y="112" width="88" height="4" rx="2" fill="url(#goldAccent)" />
+    
+    <!-- Apex Sparkle -->
+    <circle cx="68" cy="8" r="3.5" fill="#FACC15" />
+  </g>
+
+  <!-- COMPANY TYPOGRAPHY & BRANDING (Right) -->
+  <g transform="translate(175, 0)">
+    <!-- Primary Name: PR PRIME PROJECTS -->
+    <text x="0" y="58" font-family="'Berlin Sans FB', 'Trebuchet MS', sans-serif" font-size="36" font-weight="900" letter-spacing="2.5" fill="#1A4B84">
+      PR PRIME PROJECTS
+    </text>
+
+    <!-- Subtitle / Founder Attribution: by Pratyush Raj -->
+    <g transform="translate(2, 90)">
+      <text x="0" y="0" font-family="'Aptos', 'Segoe UI', sans-serif" font-size="16" font-weight="400" letter-spacing="1.5" fill="#64748B">
+        by
+      </text>
+      <text x="26" y="0" font-family="'Aptos', 'Segoe UI', sans-serif" font-size="17" font-weight="700" letter-spacing="1.8" fill="#0F172A">
+        PRATYUSH RAJ
+      </text>
+      <!-- Decorative Accent Line -->
+      <line x1="168" y1="-5" x2="510" y2="-5" stroke="url(#goldAccent)" stroke-width="1.5" opacity="0.6" />
+    </g>
+
+    <!-- Tagline: Building Trust Creating Landmarks -->
+    <g transform="translate(2, 124)">
+      <!-- Golden Diamond Bullet -->
+      <polygon points="4,-5 8,-1 4,3 0,-1" fill="#D4AF37" />
+      
+      <text x="16" y="0" font-family="'Aptos', 'Segoe UI', sans-serif" font-size="13" font-weight="700" letter-spacing="3.5" fill="#1A4B84">
+        BUILDING TRUST  •  CREATING LANDMARKS
+      </text>
+    </g>
+  </g>
+</svg>
